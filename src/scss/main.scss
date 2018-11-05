@@ -1,0 +1,28 @@
+@import url("vendor/normalize.css");
+
+@import "_variables.scss";
+
+html,
+body {
+  height: 100%;
+}
+
+body{
+  background-color: $primary-color;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+
+.title {
+  color: $primary-color-text;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 40px;
+}

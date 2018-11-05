@@ -1,0 +1,35 @@
+{
+  "name": "landingpage-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "stylelint": "stylelint 'src/scss/**/*.scss' --config ./.stylelintrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exlabs/landingpage-starter.git"
+  },
+  "keywords": [],
+  "author": "Exlabs",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/exlabs/landingpage-starter/issues"
+  },
+  "homepage": "https://github.com/exlabs/landingpage-starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^8.0.0",
+    "node-sass": "^4.9.4",
+    "stylelint": "^9.7.1",
+    "stylelint-config-airbnb": "^0.0.0",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "^3.3.2"
+  }
+}
